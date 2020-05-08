@@ -14,5 +14,10 @@ def about_page():
     return '<p>This is the about us page</p>'
 
 
+@app.route('/status')
+def status_page():
+    return '<p>Everything is working as expected</p>'
+
+
 if __name__ == '__main__':
     app.run()
